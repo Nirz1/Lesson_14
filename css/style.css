@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+.wrapper{
+	overflow: hidden;
+	min-height: 100%;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+.promises{
+	background-color: #f5f5f5;
+	padding: 20px;
+	/* По БЭМ нельзя, просто разделил работы */
+	margin-bottom: 200px;
+}
+
+.promises__container{
+	max-width: 1020px;
+	margin: 0 auto;
+}
+
+.promises__title{
+	margin-bottom: 26px;
+}
+
+.title__sub{
+	position: relative;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 24px;
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+	color: #5d62b5;
+	margin-bottom: 33px;
+	padding-left: 33px;
+}
+
+.title__sub::before{
+	position: absolute;
+	content: "";
+	background: url(../img/overline_mark.svg) -1px -3px no-repeat;
+	width: 17px;
+	height: 17px;
+	left: 0px;
+}
+
+.title__main{
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #000;
+	padding-bottom: 42px;
+}
+
+.promises__flex-columns{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0px -12px;
+	row-gap: 24px;
+}
+
+.promises__column{
+	position: relative;
+	margin: 0px 12px;
+	flex: 0 0 324px;
+}
+
+.column__title{
+	font-weight: 900;
+	font-size: 19px;
+	line-height: 26px;
+	color: #f2726f;
+	margin: 4px 3px 20px 86px;
+}
+
+.column__text{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	color: #4b4b4b;
+	margin: 0px 3px 1px 86px;
+}
+
+.promises__column:nth-child(1)::before{
+	position: absolute;
+	content: "";
+	background: url(../img/dog_love_24x.svg) 0 -3px no-repeat;
+	width: 63px;
+	height: 63px;
+}
+
+.promises__column:nth-child(2)::before{
+	position: absolute;
+	content: "";
+	background: url(../img/dog_vet_24x.svg) 0 0px no-repeat;
+	width: 63px;
+	height: 63px;
+}
+
+.promises__column:nth-child(3)::before{
+	position: absolute;
+	content: "";
+	background: url(../img/dog_stream_24x.svg) 0 0px no-repeat;
+	width: 63px;
+	height: 63px;
+}
+
+/* ================================================================================= */
+
+.our-impact{
+	position: relative;
+	background-color: #29c3be;
+	padding: 20px;
+}
+
+.our-impact::before{
+	position: absolute;
+	content: "";
+	background: url(../img/blob_2.png) no-repeat;
+	width: 695px;
+	height: 308px;
+	left: 855px;
+	top: 0px;
+}
+
+.our-impact__container{
+	max-width: 1020px;
+	margin: 0 auto;
+}
+
+.our-impact__title{
+	max-width: 411px;
+	margin: 112px 0px 79px 0px;
+}
+
+.title__sub-white{
+	position: relative;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 24px;
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+	color: #ffffff;
+	padding-left: 33px;
+	margin: 0px 0px 31.77px 0px;
+}
+
+.title__sub-white::before{
+	position: absolute;
+	content: "";
+	background: url(../img/overline_mark_2.svg) -1px -3px;
+	width: 17px;
+	height: 17px;
+	left: 0px;
+}
+
+.title__main-white{
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #ffffff;
+}
+
+.our-impact__image{
+	position: absolute;
+	left: 964px;
+	top: -80px;
+}
+
+.our-impact__dog{
+	border-radius: 40px;
+}
+
+.our-impact__flex-columns{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0px -12px;
+	row-gap: 24px;
+	margin-bottom: 212px;
+}
+
+.our-impact__column{
+	position: relative;
+	margin: 0px 12px;
+	flex: 0 0 237px;
+}
+
+.our-impact__column:nth-child(1)::before{
+	position: absolute;
+	content: "";
+	background: url(../img/dog_duckling_24x.svg) no-repeat;
+	width: 76px;
+	height: 76px;
+}
+.our-impact__column:nth-child(2)::before{
+	position: absolute;
+	content: "";
+	background: url(../img/dog_house_24px.svg) no-repeat;
+	width: 76px;
+	height: 76px;
+}
+.our-impact__column:nth-child(3)::before{
+	position: absolute;
+	content: "";
+	background: url(../img/dog_leash_24x.svg) no-repeat;
+	width: 76px;
+	height: 76px;
+}
+.our-impact__column:nth-child(4)::before{
+	position: absolute;
+	content: "";
+	background: url(../img/dog_food_bowl_24x.svg) no-repeat;
+	width: 76px;
+	height: 76px;
+}
+
+.our-impact__numb{
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #ffffff;
+	margin: 4px 0px 3px 87px;
+}
+
+.our-impact__text{
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	color: #5d62b5;
+	margin: 0px 0px 1px 88px;
+}
